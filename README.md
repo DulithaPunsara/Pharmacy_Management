@@ -24,9 +24,8 @@ A modern web application that efficiently manages medicines, tracks bills, and o
 
 If you have any questions, feel free to reach out:
 
-- LinkedIn: https://www.linkedin.com/in/ayush-sridhara-99348a286/
-- GitHub: https://github.com/AyushSridhara
+- LinkedIn: 
+- GitHub: 
 
-Made with ❤️ by Ayush
 
 
