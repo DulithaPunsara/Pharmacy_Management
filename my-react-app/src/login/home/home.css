@@ -1,0 +1,38 @@
+.box-container223 {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 20px;
+    margin-left: 300px;
+    margin-top: 100px;
+  }
+  
+  .box223 {
+    text-align: center;
+    width: 280px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+  }
+  
+  .box223 img {
+    width: 100%;
+    height: auto;
+    transition: transform 0.3s ease; /* Smooth transition for the image */
+  }
+  
+  .box223:hover img {
+    transform: scale(1.1); /* Enlarge the image on hover */
+    /* Alternatively, you can use the following line for rotation */
+    /* transform: rotate(10deg); */
+  }
+  
+  .box223 p {
+    margin-top: 10px;
+    font-size: 40px;
+    font-weight: bold;
+    color:navy;
+  }
+  

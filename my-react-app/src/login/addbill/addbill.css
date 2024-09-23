@@ -1,0 +1,232 @@
+/* Container Styling */
+.container {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+  }
+  
+  /* Form Styling */
+  .product-form {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 20px;
+    margin-top: -40px;
+  }
+  
+  .input-box {
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 150px;
+  }
+  
+  .submit-button {
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .submit-button:hover {
+    background-color: #45a049;
+  }
+  
+  /* Table Styling */
+  .product-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+  }
+  
+  .product-table th, .product-table td {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: center;
+  }
+  
+  .product-table th {
+    background-color: #f2f2f2;
+  }
+  
+  .product-table tr:nth-child(even) {
+    background-color: #f9f9f9;
+  }
+  
+  .product-table tr:hover {
+    background-color: #f1f1f1;
+  }
+  
+  /* Button Styling */
+  .delete-button {
+    padding: 5px 10px;
+    background-color: #f44336;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .delete-button:hover {
+    background-color: #e53935;
+  }
+  
+  /* Total Sum Styling */
+  .product-table tr:last-child td {
+    font-weight: bold;
+    background-color: #f2f2f2;
+  }
+  
+
+
+
+
+
+
+
+
+
+
+
+
+  .container {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    margin-left: 270px;
+    margin-top: 10px;
+  }
+  
+  .product-form {
+    margin-bottom: 20px;
+    margin-left: 150px;
+  }
+  
+  .input-box {
+    margin-right: 10px;
+    padding: 8px;
+    font-size: 14px;
+  }
+  
+  .submit-button {
+    padding: 8px 16px;
+    font-size: 14px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .table-container {
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    overflow: hidden;
+  }
+  
+  .table-header {
+    background-color: #f4f4f4;
+  }
+  
+  .table-header table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .table-body {
+    max-height: 370px; /* Adjust the height as needed */
+    overflow-y: auto;
+  }
+  
+  .table-body table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .product-table th,
+  .product-table td {
+    padding: 10px;
+    border: 1px solid #ddd;
+    text-align: left;
+  }
+  
+  .product-table thead th {
+    background-color: #f4f4f4;
+  }
+  
+  .total-sum {
+    padding: 10px;
+    font-size: 20px;
+    background-color: #f4f4f4;
+    border-top: 1px solid #ddd;
+    text-align: right;
+    margin-top: 10px;
+    padding-right: 80px;
+  }
+  
+  .delete-button {
+    padding: 5px 10px;
+    font-size: 12px;
+    background-color: #dc3545;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  
+
+
+
+
+  /* Styling for the total sum display */
+.total-sum {
+    font-size: 18px;
+    margin-top: 0px;
+    font-weight: bold;
+    text-align: right;
+  }
+  
+  /* Styling for the Clear All Data button */
+  .clear-button {
+    background-color: #f44336; /* Red background */
+    color: white; /* White text */
+    border: none;
+    padding: 7px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 10px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .clear-button:hover {
+    background-color: #d32f2f; /* Darker red */
+  }
+  
+  /* Styling for the Save Bill button */
+  .log-data-button {
+    background-color: #4caf50; /* Green background */
+    color: white; /* White text */
+    border: none;
+    padding: 7px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 10px;
+    margin-left: 10px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .log-data-button:hover {
+    background-color: #388e3c; /* Darker green */
+  }
+  
+
+
+  .hidden-textbox {
+    display: none;
+  }
+
+

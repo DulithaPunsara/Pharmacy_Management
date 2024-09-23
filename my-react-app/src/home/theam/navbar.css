@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+li {
+    
+    list-style: none;
+}
+
+
+
+.navbar{
+    height: 10vh;
+    line-height: 10vh;
+    box-shadow: rgba(50, 50, 93, 0.23) 0 30px 30px -20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+
+.logo{
+    font-size: 30px;
+    color: #535353;
+}
+
+
+.nav-links{
+    display:flex;
+    justify-content: flex-end;
+    width:75%;
+    margin-right: 50px;
+}
+
+
+
+
+.nav-links li {
+    color: #5e5e5e;
+    font-size: 20px;
+    padding: 0 10px;
+    margin: 0 10px;
+    cursor: pointer;
+    text-transform: capitalize;
+    text-decoration: none;
+}
+
+.navbar li:hover{
+    color: black;
+}
+
+
+.hero{
+    text-align: center;
+    margin-top: 15%;
+}
+
+
+.hero h1{
+    text-align: center;
+    font-size: 80px;
+}
+
+
+
+.mobile-menu-icon{
+    display: none;
+}
+
+
+
+
+
+.navbar{
+    height: 10vh;
+    line-height: 10vh;
+    box-shadow: rgba(50, 50, 93, 0.23) 0 30px 30px -20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: sticky;
+    top: 0;
+    z-index: 100; /* Ensures the navbar stays on top of other content */
+    background-color: #aae7c6; /* Set background color to avoid transparency issues */
+}
+
+
+
+.login-link {
+    list-style-type: none;  /* Removes the bullet point */
+    display: inline-block;  /* Makes the list item inline */
+    color: #000;  /* Text color */
+    text-decoration: none;  /* Removes underline */
+   /* background-color: #007bff;*/
+  }
+  
+  
+  .login-link:hover {
+    color: #007bff;  /* Hover color */
+    cursor: pointer;  /* Changes cursor to pointer on hover */
+  }
+  
