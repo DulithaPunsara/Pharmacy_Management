@@ -24,7 +24,8 @@ A modern web application that efficiently manages medicines, tracks bills, and o
 
 If you have any questions, feel free to reach out:
 
-- LinkedIn: https://www.linkedin.com/in/dulitha-punsara
+- LinkedIn: https://www.linkedin.com/in/DulithaPunsara
+
 - GitHub: https://github.com/DulithaPunsara
 
 
